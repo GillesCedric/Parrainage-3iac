@@ -1,0 +1,32 @@
+    body{
+    background-color: #6d1d1d;
+    padding-top: 25vh;
+}
+form{
+    background: #fff;
+}
+.form-container{
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px;
+    margin-bottom: 30px;
+}
+.img {
+    width: auto;
+    height: 80px;
+    position: absolute;
+    top: -3.5%;
+    left: 40%;
+}
+     .skew{
+    margin-top: -180px;
+    padding: 200px 0;
+    transform: skew(0deg,-10deg);
+    background:#f5683d;
+}
+
+.conteneur{
+    transform: skew(0deg ,10deg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}    

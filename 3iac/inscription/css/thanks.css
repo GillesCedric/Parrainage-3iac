@@ -1,0 +1,56 @@
+html{
+    min-height: 1000%;
+    overflow: hidden;
+
+    background: url(../img/tree-736885_1280.jpg) fixed no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+body{
+    height: calc(100vh-8em);
+    padding: 10%;
+    color: rgba(255,255,255,0.75);
+    font-family: ROBOTO ;
+    background: url('');
+    background:rgba(0,0,0,0.75); */
+}
+
+.line{
+    position: relative;
+    top: 50%;
+    width: 30%;
+    margin:20% auto;
+    border-right: 2px solid rgba(255,255,255,0.75);
+    font-size: 200%;
+    font-weight: bold;
+    text-align:center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.anim-typewriter{
+    animation: typewriter 4s steps(50) 1s 1 normal both,
+        blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter{
+    from{
+        width: 0;
+    }
+    to{
+        width:100%;
+    }
+    
+    }
+
+@keyframes blinkTextCursor{
+    from{
+        border-right-color: rgba(255,255,255,0.75);
+    }
+    to{
+        border-right-color: transparent; 
+    }
+}
